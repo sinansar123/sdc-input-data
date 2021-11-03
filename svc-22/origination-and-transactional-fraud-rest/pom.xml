@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>producer-parent</artifactId>
+        <groupId>org.definex.dfx.template</groupId>
+        <version>1.0.0</version>
+        <relativePath>../producer-parent</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>producer-rest</artifactId>
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.definex.dfx.starter</groupId>
+            <artifactId>dfx-starter-rest</artifactId>
+            <type>pom</type>
+        </dependency>
+        <dependency>
+            <groupId>org.definex.dfx.template</groupId>
+            <artifactId>producer-data</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
+</project>
