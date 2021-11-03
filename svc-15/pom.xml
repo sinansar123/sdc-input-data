@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.definex.dfx.template</groupId>
+    <artifactId>quality-software-and-metrics</artifactId>
+    <packaging>pom</packaging>
+    <version>3.2.16</version>
+    <modules>
+        <module>quality-software-and-metrics-app</module>
+        <module>quality-software-and-metrics-bom</module>
+        <module>quality-software-and-metrics-data</module>
+        <module>quality-software-and-metrics-parent</module>
+        <module>quality-software-and-metrics-rest</module>
+    </modules>
+
+    <parent>
+        <groupId>com.definex.dfx.starter</groupId>
+        <artifactId>dfx-starter-parent</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+</project>

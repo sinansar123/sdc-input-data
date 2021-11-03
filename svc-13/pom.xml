@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.definex.dfx.template</groupId>
+    <artifactId>log-management</artifactId>
+    <packaging>pom</packaging>
+    <version>1.3.6</version>
+    <modules>
+        <module>log-management-app</module>
+        <module>log-management-bom</module>
+        <module>log-management-data</module>
+        <module>log-management-parent</module>
+        <module>log-management-rest</module>
+    </modules>
+
+    <parent>
+        <groupId>com.definex.dfx.starter</groupId>
+        <artifactId>dfx-starter-parent</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+</project>
